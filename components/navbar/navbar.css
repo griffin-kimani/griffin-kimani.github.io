@@ -190,11 +190,11 @@
 
 @media (max-width: 768px) {
   .section {
-    height: 100vh; /* Adjusting section height for small devices */
+    height: 50vh; /* Adjusting section height for small devices */
   }
 
   .navbar {
-    padding: 10px 20px; /* Reduced padding for mobile */
+    padding: 5px 15px; /* Reduced padding for mobile */
   }
 
   .navbar-links {
@@ -206,8 +206,8 @@
   }
 
   .hero-text h1 {
-    font-size: 2rem; /* Reduce font size for small screens */
-    letter-spacing: 5px; /* Adjust letter spacing */
+    font-size: 1rem; /* Reduce font size for small screens */
+    letter-spacing: 3px; /* Adjust letter spacing */
   }
 
   .hero-text p {
@@ -226,15 +226,15 @@
   }
 
   .navbar-logo img {
-    height: 30px; /* Smaller logo for mobile */
+    height: 10px; /* Smaller logo for mobile */
   }
 }
 
 /* For small mobile devices */
-@media (max-width: 480px) {
+@media (max-width: 200px) {
   .hero-text h1 {
     font-size: 1.8rem;
-    letter-spacing: 2px; /* Decrease letter-spacing further */
+    letter-spacing: 1px; /* Decrease letter-spacing further */
   }
 
   .hero-text p {
